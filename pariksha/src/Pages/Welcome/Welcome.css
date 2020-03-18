@@ -1,0 +1,54 @@
+.lander-section{
+    top:0px;
+    left:0px;
+    right: 0px;
+    background: #2d2d2d;
+
+}
+.lander-text{
+    font-size: 50px;
+    font-weight: 500;
+    color: #61dafb;
+}
+.asker > .asker-btn{
+    margin:5px;
+    padding:10px;
+    font-size: 20px;
+    border:0px;
+    outline: 0px;
+
+    background-color: #61dafb;
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+.asker > .asker-btn:active,.asker-btn:hover{
+    background-color: white;
+}
+.asker > .asklink{
+    border:0px solid #61dafb;
+    outline: 0px;
+    margin:0px;
+    background: transparent;
+    color: #61dafb;
+    font-size: 20px;
+}
+.message{
+    font-size: 20px;
+    color:white;
+    font-weight: 200;
+}
+
+.login{
+    top:0px;
+    left:0px;
+    right:0px;
+    height: auto;
+}
+.f-group{
+    margin: 0px;
+    padding:0px;
+    background: white;
+    color: black;
+    font-size: 30px;
+    
+}

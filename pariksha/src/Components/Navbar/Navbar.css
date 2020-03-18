@@ -1,0 +1,39 @@
+.Navbar{
+    top:0px;
+    left:0px;
+    right:0px;
+    height: auto;
+
+    position: sticky;
+    display: grid;
+    grid-template-areas: "left central right";
+
+    background: #232323;
+    color: white;
+    font-size: 30px;
+    font-weight: 300;
+    user-select: none;
+    
+}
+.brand{
+    padding: 5px;
+    color: #61dafb;
+    grid-area: left;
+    box-shadow:  -1px 0 20px #2d2d2d;
+}
+.right{
+    padding: 5px;
+    grid-area: right;
+}
+.central{
+    width: auto;
+    position: relative;
+    overflow-x: scroll;
+    display: inline-flex ;
+    z-index: -1;
+    font-size: 20px;
+    grid-area: central;
+}
+.central > .link{
+    padding:10px;
+}

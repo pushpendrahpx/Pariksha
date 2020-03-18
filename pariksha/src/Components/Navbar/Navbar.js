@@ -1,4 +1,5 @@
 import React,{Component} from 'react';
+import './Navbar.css';
 class Navbar extends Component{
     constructor(props){
         super(props)
@@ -9,6 +10,16 @@ class Navbar extends Component{
     }
 
     render(){
-        return <div>Trying Baby</div>
+        return <div className='Navbar'>
+            <div className='brand'>Logo</div>
+            <div className='central'>
+                <div className='link'>Home</div>
+                <div className='link'>Login</div>
+                <div className='link'>About</div>
+                <div className='link'>Developer</div>
+            </div>
+            {/* <div className='right'>Right</div> */}
+        </div>
     }
 }
+export default Navbar
